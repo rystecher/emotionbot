@@ -1,0 +1,12 @@
+Made this one with Benjamin Gleitzman in his awesome class at NextStepTech.
+Check his stuff out at github.com/Gleitz ...
+
+run the analyze_sentiment procedure and input a string of text, get a score
+associated with that text, outputs a phrase determining how good/bad the
+sentence is.
+
+Current issues:
+
+punctuation causes the program to skip the word, so for example:
+
+'happy!' would output a score of 0, when it should be 3.
